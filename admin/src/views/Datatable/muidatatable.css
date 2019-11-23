@@ -1,0 +1,108 @@
+/* .muitable tr:nth-child(even) {
+    background-color:#fff;
+    color:#000;
+}
+
+.muitable tr:nth-child(odd) {
+    background-color:#fbfcfd;
+}
+.muitable table{
+    border: 1px solid #e7ecf1;
+    width:100%
+}
+.muitable th,td{
+    border: 1px solid #e7ecf1;
+}
+.muitable tr td:nth-child(2) {font-weight:bold; cursor: pointer;}
+
+.CarrierTable th:nth-child(6) {
+    width: 6%;
+}
+.CarrierTable th:nth-child(5) {
+    width: 15%;
+}
+ .CarrierTable th:nth-child(4) {
+    width: 17%;
+}
+
+ .CarrierTable th:nth-child(3) {
+    width: 50%;
+}
+
+.CarrierTable th:nth-child(2) {
+    width: 10%;
+}
+
+.CarrierTable th:nth-child(1) {
+    width: 15% ;
+}
+.CarrierTable,.muitable {
+    z-index: 0;
+    position: relative;
+}
+
+.CustomerTable th:nth-child(6) {
+    width: 6%;
+}
+.CustomerTable th:nth-child(5) {
+    width: 12%;
+}
+ .CustomerTable th:nth-child(4) {
+    width: 10%;
+}
+
+ .CustomerTable th:nth-child(3) {
+    width: 10%;
+}
+
+.CustomerTable th:nth-child(2) {
+    width: 40%;
+}
+
+.CustomerTable th:nth-child(1) {
+    width: 15% ;
+}
+.AgentTable th:nth-child(6) {
+    width: 10%;
+}
+.AgentTable th:nth-child(5) {
+    width: 10%;
+}
+ .AgentTable th:nth-child(4) {
+    width: 6%;
+}
+
+ .AgentTable th:nth-child(3) {
+    width: 10%;
+}
+
+.AgentTable th:nth-child(2) {
+    width: 40%;
+}
+
+.AgentTable th:nth-child(1) {
+    width: 15% ;
+}
+.DriverTable th:nth-child(6) {
+    width: 10%;
+}
+.DriverTable th:nth-child(5) {
+    width: 10%;
+}
+ .DriverTable th:nth-child(4) {
+    width: 6%;
+}
+
+ .DriverTable th:nth-child(3) {
+    width: 10%;
+}
+
+.DriverTable th:nth-child(2) {
+    width: 40%;
+}
+
+.DriverTable th:nth-child(1) {
+    width: 15% ;
+}
+ */ 
+ .muitable tr td:nth-child(2) {font-weight:bold; cursor: pointer;}

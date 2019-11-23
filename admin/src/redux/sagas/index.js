@@ -1,0 +1,51 @@
+import { loginRequest } from './login';
+import { getAdmins, adminSignUp, updateAdmin } from "./admin";
+import { getUniversities, createUniversity, updateUniversity, deleteUniversity } from "./university";
+import { getColleges, createCollege, updateCollege, deleteCollege } from "./college";
+import { getSchools, createSchool, updateSchool, deleteSchool } from "./school";
+import { getDegrees, createDegree, updateDegree, deleteDegree } from "./degree";
+import { getFields, createField, updateField, deleteField } from "./field";
+import { getSubjects, createSubject, updateSubject, deleteSubject } from "./subject";
+import { getCareers, createCareer, updateCareer, deleteCareer } from "./career";
+import { getQuestions, createQuestion, updateQuestion, deleteQuestion } from "./question";
+
+import { fork } from 'redux-saga/effects';
+
+export function* rootSaga() {
+    yield fork(loginRequest);
+    yield fork(getAdmins);
+    yield fork(adminSignUp);
+    yield fork(updateAdmin);
+    yield fork(getUniversities);
+    yield fork(createUniversity);
+    yield fork(updateUniversity);
+    yield fork(deleteUniversity);
+    yield fork(getColleges);
+    yield fork(createCollege);
+    yield fork(updateCollege);
+    yield fork(deleteCollege);
+    yield fork(getSchools);
+    yield fork(createSchool);
+    yield fork(updateSchool);
+    yield fork(deleteSchool);
+    yield fork(getDegrees);
+    yield fork(createDegree);
+    yield fork(updateDegree);
+    yield fork(deleteDegree);
+    yield fork(getFields);
+    yield fork(createField);
+    yield fork(updateField);
+    yield fork(deleteField);
+    yield fork(getSubjects);
+    yield fork(createSubject);
+    yield fork(updateSubject);
+    yield fork(deleteSubject);
+    yield fork(getCareers);
+    yield fork(createCareer);
+    yield fork(updateCareer);
+    yield fork(deleteCareer);
+    yield fork(getQuestions);
+    yield fork(createQuestion);
+    yield fork(updateQuestion);
+    yield fork(deleteQuestion);
+  }
